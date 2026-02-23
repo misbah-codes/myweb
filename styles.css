@@ -1,0 +1,843 @@
+/* ----------------------------------CSS APPLIED ON BODY ------------------------------------*/
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+   scroll-behavior: smooth;
+} 
+
+
+body{
+    background-color: rgb(9, 3, 27);
+    color: white;
+     font-family: "Exo 2", sans-serif;
+     font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+#home,#skil,#about,#contact,#projects{
+     scroll-margin-top: 80px;
+}
+
+
+
+
+/* ---------------------------------CSS APLILED ON NAV BAR  ------------------------------*/
+
+
+
+
+
+
+nav{
+    background-color:rgba(20, 4, 56, 0.6); 
+    /* border: solid rgb(118, 64, 198) 0.5px; */
+    backdrop-filter:blur(15px);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    gap: 10px;
+    
+    
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: center; /* Centered for all screens */
+    flex-wrap: wrap;
+    display: flex;
+}
+
+nav ul{
+    margin-left: 100px;
+}
+
+nav ul li{
+    padding: 20px 20px;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover{
+    color: rgb(164, 145, 223);
+}
+
+.title{
+    padding-top: 14px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* -------------------------------CSS ON SECTION ONE -------------------------------------*/
+
+
+
+
+
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    padding: 100px 5% 50px 5%;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://png.pngtree.com/thumb_back/fh260/background/20240102/pngtree-exquisite-overlapping-layers-dark-navy-and-purple-blue-textured-background-image_13881352.png);
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap; 
+}
+
+.name{
+    /* margin-top: 170px; */
+    margin-left: 150px;
+    font-size: x-large;
+}
+
+.typed{
+    margin-top: 5px;
+    color: rgb(181, 146, 234);
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem; 
+    transition: 0.3s; 
+}
+
+.logo a:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.8)); 
+}
+
+.icon{
+    margin-left: 10px;
+}
+
+
+button {
+    margin-top: 30px;
+  padding: 1.3em 2em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: white;
+  background-color: #6047c1;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button:hover {
+  background-color: rgb(96, 71, 193);
+  box-shadow: 0px 15px 20px rgba(96, 71, 193, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+ .student-card{
+    padding: 15px;
+    width: 250px;
+    background-color: white;
+    margin: auto;
+    /* margin-top: 200px; */
+    border-radius: 20px;
+    text-align: center;
+    font-size: small;
+    text-transform: uppercase;
+    color: black;
+    
+
+    box-shadow: 0px 0px 20px gray;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.student-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 35px #ffffff;
+    
+}
+
+.img-box{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease ;
+}
+
+.student-card:hover .img-box{
+    max-height: 300px;
+}
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.title1{
+    color: rgb(118, 64, 198);
+     font-size: larger; 
+ }
+.para{
+    font-size:smaller;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+
+
+
+
+/*--------------------------------- CSS APLIED ON SECTION TWO---------------------------------------- */
+
+
+
+
+
+
+
+.about-content{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    color:#94a3b8;
+    line-height:1.7;
+    margin-bottom: 150px;
+}
+
+
+.section-title{
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.stitle{
+    text-align: center;
+    
+}
+
+
+.student-card2{
+    padding: 15px;
+    width: 250px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: small;
+    text-transform: uppercase;
+    color: black;
+    
+
+    box-shadow: 0px 0px 20px gray;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.student-card2:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 35px #ffffff;
+    
+}
+
+.img-box2{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease ;
+}
+
+.student-card2:hover .img-box2{
+    max-height: 300px;
+}
+
+.img-box2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title11{
+    color: rgb(118, 64, 198);
+     font-size: larger; 
+ }
+.para1{
+    font-size:smaller;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+.skills{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(https://png.pngtree.com/thumb_back/fh260/background/20240102/pngtree-exquisite-overlapping-layers-dark-navy-and-purple-blue-textured-background-image_13881352.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+    width: 800px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(80, 71, 160);
+    /* position: fixed; */
+}
+
+
+
+.parent {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 100px;
+grid-row-gap: 0px;
+margin-top: 80px;
+text-align: center;
+}
+
+.div1 {
+     grid-area: 1 / 1 / 2 / 2; 
+     animation: pop 2s infinite ;
+    }
+
+.div2 { 
+    grid-area: 1 / 2 / 2 / 3;
+    animation: pop1 2s infinite ;
+ }
+.div3 {
+     grid-area: 1 / 3 / 2 / 4;
+    animation: pop 2s infinite ;
+
+    }
+.div4 {
+     grid-area: 1 / 4 / 2 / 5;
+    animation: pop1 2s infinite ;
+
+    }
+.div5 {
+     grid-area: 2 / 1 / 3 / 2;
+    animation: pop1 2s infinite ;
+
+     }
+.div6 {
+     grid-area: 2 / 2 / 3 / 3;
+    animation: pop 2s infinite ;
+
+     }
+.div7 { 
+    grid-area: 2 / 3 / 3 / 4;
+    animation: pop1 2s infinite ;
+
+ }
+.div8 {
+     grid-area: 2 / 4 / 3 / 5;
+    animation: pop 2s infinite ;
+
+    }
+
+.ho:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.8)); 
+}
+
+
+@keyframes pop{
+    0%{transform: scale(1);}
+    50%{transform: scale(0.8);}
+    100%{transform: scale(1);}
+}
+@keyframes pop1{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
+
+
+
+.slide{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease ;
+}
+
+.ho:hover .slide{
+    max-height: 30px;
+}
+
+
+
+
+
+
+/* ---------------------------------CSS APLIED ON SECTION THREE ------------------------------------*/
+
+
+
+
+
+.section-title1{
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit ,minmax(200px,1fr));
+    gap:30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-card{
+    background: rgb(29, 25, 63);
+    padding:25px;
+    border-radius:20px;
+    transition:0.3s;
+    border:1px solid rgba(255,255,255,0.05);
+    margin-bottom: 150px;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+    border-color:#ffffff;
+    box-shadow: 0px 0px 10px #ffffff;
+}
+
+.project-card h3{
+    margin-bottom:10px;
+}
+
+.project-card p{
+    color:#94a3b8;
+    margin-bottom:15px;
+}
+
+.project-card a{
+    text-decoration:none;
+    color:rgb(141, 124, 183);
+    font-weight:600;
+}
+
+.prhover:hover{
+    color: #fff;
+}
+
+
+
+
+
+
+
+/* ----------------------------------------CSS APLIED ON SECTION FOUR --------------------------------*/
+
+
+
+
+
+
+
+.contact{
+    background:linear-gradient(rgb(29, 25, 63), rgb(12, 7, 28));
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    height: 500px;
+
+}
+.contact h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.one{
+    display: flex;
+    justify-content: center;
+    gap:10px ;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    gap:10px ;
+}
+
+
+.text input
+{
+    background-color:rgb(255, 255, 255) ;
+    padding: 15px;
+    padding-right: 150px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-bottom: 6px solid #6047c1;
+}
+
+.email input{
+
+    background-color:rgb(255, 255, 255) ;
+    padding: 15px;
+    padding-right: 150px;
+    /* border: none; */
+    box-sizing: border-box;
+    border-radius: 4px;
+     border-bottom: 6px solid #6047c1;
+}
+
+.num input{
+    background-color:rgb(255, 255, 255) ;
+    padding: 15px;
+    padding-right: 150px;
+    border-radius: 4px;
+    margin-top: 10px;
+    box-sizing: border-box;
+     border-bottom: 6px solid #6047c1;
+}
+.subject input{
+    background-color:rgb(255, 255, 255) ;
+    padding: 15px;
+    padding-right: 150px;
+    border-radius: 4px;
+    margin-top: 10px;
+    box-sizing: border-box;
+     border-bottom: 6px solid #6047c1;
+}
+
+
+
+.three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* vertical */
+    align-items: center;       /* horizontal */
+    width: 100%;
+}
+
+.more {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.more textarea {
+    width: 100%;
+    max-width: 670px;   /* controls size */
+    height: 120px;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 4px;
+    /* border: none; */
+    border-bottom: 6px solid #6047c1;
+    box-sizing: border-box;
+    resize: none;
+}
+
+
+
+/* BUTTON */
+.btn {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 670px;  /* same width as textarea */
+    padding: 1.2em;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: black;
+    background-color: rgb(167, 162, 217);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover */
+.btn:hover {
+    box-shadow: 0px 15px 20px rgba(167, 162, 217, 0.4);
+    transform: translateY(-7px);
+}
+
+/* Active */
+.btn:active {
+    transform: translateY(-1px);
+}
+
+
+
+
+
+
+
+
+/*---------------------------------------- CSS ON FOOTER---------------------------------------- */
+
+
+
+
+
+.foot{
+    background-color: rgb(5, 1, 17);
+    height: 70px;
+    text-align: center;
+    /* padding-top: 60px; */
+    margin-top: 70px;
+   
+}
+
+
+
+/* -----------------------------------------media querry-------------------------------------- */
+
+@media (max-width:940px) {
+
+    .main{
+        display: flex;
+         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .name{
+        text-align: center;
+        font-size: medium;
+        margin-left: 0px;
+    }
+
+    .student-card{
+        display: none;
+    }
+
+    
+}
+@media(min-width:940px) {
+
+    .student-card2{
+        display: none;
+        
+    }
+
+
+    
+}
+
+@media(max-width:940px) {
+
+   .about-content{
+    max-width:600px;
+    margin:auto;
+    text-align:center;
+    color:#94a3b8;
+    line-height:1.7;
+    margin-bottom: 150px;
+}
+
+
+.section-title{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+
+
+    
+}
+
+@media (max-width:800px) {
+.main{
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1300px;
+    /* position: fixed; */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+body{
+    overflow-x: hidden;
+}
+
+.skills{
+    max-width: 500px;
+    background-size: cover;
+
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 0px;
+margin-top: 80px;
+text-align: center;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* gap:10px ; */
+}
+.two{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* gap:10px ; */
+
+}
+
+.more{
+    max-width: 330px;
+}
+
+.btn{
+    max-width: 330px;
+}
+
+.contact{
+    height: 700px;
+}
+.projects-grid {
+        grid-template-columns: 1fr; 
+        row-gap: 10px;
+    }
+
+.section-title1{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+.project-card{
+    margin-bottom: 20px;
+}
+.cardone{
+    margin-top: 50px;
+}
+.navb{
+    display: none;
+}
+.title{
+    margin-bottom: 10px;
+}
+
+ .name{
+        text-align: center;
+        font-size: small;
+    }
+
+.typed{
+    margin-top: 5px;
+    color: rgb(181, 146, 234);
+    font-size:x-large;
+    font-weight: bold;
+    
+}
+.icon{
+    margin-left: 0px;
+}
+}
+
+
+@media (max-width:500px)
+{
+
+
+    
+.parent {
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 30px;
+grid-row-gap: 30px;
+margin-top: 80px;
+text-align: center;
+}
+
+
+.div1 { grid-area: 1 / 3 / 2 / 4; }
+.div2 { grid-area: 1 / 4 / 2 / 5; }
+.div3 { grid-area: 2 / 3 / 3 / 4; }
+.div4 { grid-area: 2 / 4 / 3 / 5; }
+.div5 { grid-area: 3 / 3 / 4 / 4; }
+.div6 { grid-area: 3 / 4 / 4 / 5; }
+.div7 { grid-area: 4 / 3 / 5 / 4; }
+.div8 { grid-area: 4 / 4 / 5 / 5; }
+
+.skills{
+    max-width: 300px;
+    background-size: cover;
+    height: 560px;
+
+}
+
+.about-content{
+    max-width:300px;
+    text-align: justify;
+}
+
+.text input{
+    padding-right: 100px;
+}
+
+.email input{
+    padding-right: 100px;
+}
+.subject input{
+    padding-right: 100px;
+}
+.num input{
+    padding-right: 100px;
+}
+.more{
+    width: 280px;
+}
+.btn{
+    width: 280px;
+}
+}
+

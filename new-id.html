@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html, body{
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+body{
+    font-family: "Arimo", sans-serif;
+    background: linear-gradient(135deg,#99CADE, #57C785, #EDDD53);
+}
+
+
+
+   .student-card{
+    padding: 15px;
+    width: 250px;
+    background-color: white;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: small;
+    text-transform: uppercase;
+
+    box-shadow: 0px 0px 20px gray;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.student-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 35px #050E3C;
+}
+
+.img-box{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease ;
+}
+
+.student-card:hover .img-box{
+    max-height: 300px;
+}
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title1{
+    color: rgb(0, 11, 226);
+    font-family: "EB Garamond", serif;
+    font-size: larger;
+}
+.para{
+    font-size:smaller;
+    text-align: center;
+    line-height: 18px;
+}
+.title2{
+    font-size:  x-large;
+    font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+</style>
+<body>
+        <div class="student-card">
+            <div class="img-box">
+            <img src="assets/profile.jpg" alt="img" >
+            </div>
+            <h2 class="title2">Misbah Khan</h2>
+            <p class="title1"><b>Web Developer</b></p>
+            <p class="para">Passionate web developer skilled in creating responsive and interactive websites using modern web technologies.</p>
+        </div>
+</body>
+</html>
